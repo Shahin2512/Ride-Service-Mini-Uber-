@@ -1,6 +1,6 @@
 # 🚖 Ride Service Backend – Mini Uber Clone
 
-A simplified ride-hailing backend system built with Flask that simulates the complete lifecycle of a ride, including driver allocation, pricing, and performance metrics.  
+A simplified ride-service backend system built with Flask that simulates the complete lifecycle of a ride, including driver allocation, pricing, and performance metrics.  
 This project demonstrates backend logic for ride creation, driver matching, dynamic fare computation, and monitoring.
 
 ---
@@ -10,11 +10,11 @@ This project demonstrates backend logic for ride creation, driver matching, dyna
 | Layer        | Technology          |
 |-------------|----------------------|
 | Backend API | **Flask (Python)**   |
-| Database    | **NeonDB / PostgreSQL** via SQLAlchemy |
+| Database    | **PostgreSQL** via SQLAlchemy |
 | Scheduler   | **APScheduler** for background jobs |
-| Frontend    | **HTML + JS + CSS** (static) |
+| Frontend    | **HTML + JS + CSS** |
 | ORM         | **SQLAlchemy**       |
-| Geolocation | Approximate lat/lng math (or optionally Haversine) |
+| Geolocation | Approximate lat/lng math |
 
 
 ![Screenshot 2025-07-02 005458](https://github.com/user-attachments/assets/8cf14f78-19ab-4dc9-b3e4-e27ec5f9155b) 
