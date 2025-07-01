@@ -18,7 +18,7 @@ This project demonstrates backend logic for ride creation, driver matching, dyna
 
 ## 🔧 Setup & Run Instructions
 
-### 1. Clone the Repository
+### Clone the Repository
 
 ```bash
 git clone https://github.com/your-username/ride-service.git
@@ -28,13 +28,10 @@ pip install -r ../requirements.txt
 Run the Backend: 
 python app.py
 
-![Screenshot 2025-07-02 005458](https://github.com/user-attachments/assets/876d81fb-2789-454f-827c-f9f76c22bdab)
 
-![image](https://github.com/user-attachments/assets/eeaa6eba-b0eb-4fe1-964e-33daf79cea1f)
+![Screenshot 2025-07-02 005458](https://github.com/user-attachments/assets/e7397ea0-f806-4ebf-9da9-7087b604a2f3)
 
-![image](https://github.com/user-attachments/assets/e870c822-f545-404c-8bd7-7ab3469e0f2d)
 
-![image](https://github.com/user-attachments/assets/2a3f661d-c6de-4c8a-887d-31bc68f2bc20)
 
 
 
