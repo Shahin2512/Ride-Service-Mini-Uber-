@@ -27,11 +27,7 @@ cd ride-service/backend
 pip install -r ../requirements.txt
 Run the Backend: 
 python app.py
-
-
-
-
-
+python simulate.py
 
 
 
