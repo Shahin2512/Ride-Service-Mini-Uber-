@@ -55,7 +55,8 @@ class DriverService:
         # Get available drivers not in the above lists
         eligible_drivers = Driver.query.filter(
             Driver.is_available == True,
-            Driver.id.notin_(recent_drivers_subquery),
+            #Driver.id.notin_(recent_drivers_subquery),
+            Driver.id.notin_(db.session.query(recent_drivers_subquery.c.driver_id)),
             Driver.id.notin_(high_cancel_drivers)
         ).all()
         

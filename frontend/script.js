@@ -170,13 +170,24 @@ document.addEventListener('DOMContentLoaded', function() {
             drivers.forEach(driver => {
                 const driverItem = document.createElement('div');
                 driverItem.className = `driver-item driver-${driver.is_available ? 'available' : 'unavailable'}`;
+
+                let statusText = '';
+                if (driver.status === 'available') {
+                    statusText = 'Available';
+                } else if (driver.status === 'in_ride') {
+                    statusText = 'On a Ride';
+                } else {
+                    statusText = 'Offline';
+                }
                 
                 driverItem.innerHTML = `
                     <h3>Driver #${driver.id}: ${driver.name}</h3>
-                    <p><strong>Status:</strong> ${driver.is_available ? 'Available' : 'Unavailable'}</p>
+                    <p><strong>Status:</strong> ${statusText}</p>
                     <p><strong>Location:</strong> (${driver.current_lat}, ${driver.current_lng})</p>
                     <p><strong>Cancel Count:</strong> ${driver.cancel_count}</p>
                 `;
+
+                
                 
                 driversList.appendChild(driverItem);
             });
