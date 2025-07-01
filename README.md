@@ -29,7 +29,6 @@ Run the Backend:
 python app.py
 
 
-![Screenshot 2025-07-02 005458](https://github.com/user-attachments/assets/e7397ea0-f806-4ebf-9da9-7087b604a2f3)
 
 
 
