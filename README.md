@@ -16,10 +16,13 @@ This project demonstrates backend logic for ride creation, driver matching, dyna
 | ORM         | **SQLAlchemy**       |
 | Geolocation | Approximate lat/lng math (or optionally Haversine) |
 
+![Screenshot 2025-07-02 005458](https://github.com/user-attachments/assets/8cf14f78-19ab-4dc9-b3e4-e27ec5f9155b) 
+
+![Screenshot 2025-07-02 010228](https://github.com/user-attachments/assets/6152f3c7-cff6-4a95-b70f-0a25d46afac6)
+
+
+
 ## 🔧 Setup & Run Instructions
-
-![Screenshot 2025-07-02 005458](https://github.com/user-attachments/assets/101b42b8-90e0-4828-ae0d-126591949f1e)
-
 
 ### Clone the Repository
 
